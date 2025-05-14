@@ -1,0 +1,9 @@
+# 카카오 미러
+deb http://mirror.kakao.com/ubuntu/ jammy main restricted universe multiverse
+deb http://mirror.kakao.com/ubuntu/ jammy-updates main restricted universe multiverse
+deb http://mirror.kakao.com/ubuntu/ jammy-security main restricted universe multiverse
+
+# 네이버 미러
+deb http://mirror.navercorp.com/ubuntu/ jammy main restricted universe multiverse
+deb http://mirror.navercorp.com/ubuntu/ jammy-updates main restricted universe multiverse
+deb http://mirror.navercorp.com/ubuntu/ jammy-security main restricted universe multiverse
