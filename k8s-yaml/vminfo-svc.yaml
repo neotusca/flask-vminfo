@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: vminfo-app
+  name: vminfo-svc
+spec:
+  ports:
+  - nodePort: 30000
+    port: 80
+    protocol: TCP
+    targetPort: 5000
+  selector:
+    app: vminfo-app
+  type: NodePort
