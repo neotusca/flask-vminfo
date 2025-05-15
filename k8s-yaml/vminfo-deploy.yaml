@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+  labels:
+    app: vminfo-app
+  name: vminfo-deploy
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: vminfo-app
+  template:
+    metadata:
+      labels:
+        app: vminfo-app
+    spec:
+      containers:
+      - image: neotusca/vminfo:1.5
+        name: vminfo-container
