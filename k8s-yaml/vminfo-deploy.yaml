@@ -16,5 +16,5 @@ spec:
         app: vminfo-app
     spec:
       containers:
-      - image: neotusca/vminfo:1.5
+      - image: neotusca/vminfo:1.6
         name: vminfo-container
