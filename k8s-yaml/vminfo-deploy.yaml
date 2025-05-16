@@ -6,7 +6,7 @@ metadata:
     app: vminfo-app
   name: vminfo-deploy
 spec:
-  replicas: 4
+  replicas: 3
   selector:
     matchLabels:
       app: vminfo-app
@@ -16,5 +16,5 @@ spec:
         app: vminfo-app
     spec:
       containers:
-      - image: neotusca/vminfo:1.6
+      - image: neotusca/vminfo:1.7
         name: vminfo-container
